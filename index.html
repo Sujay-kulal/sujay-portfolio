@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sujay M. — Software Engineer, Backend Developer, and Full Stack Developer. Explore my portfolio, projects, skills, and experience.">
+    <meta name="author" content="Sujay M.">
+    <meta name="theme-color" content="#0a0a0a">
+    <title>Sujay M. | Software Engineer &amp; Full Stack Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="#" class="nav-logo" aria-label="Sujay M. — Home">
+                    <span class="logo-text">&lt;Sujay /&gt;</span>
+                </a>
+
+                <ul class="nav-links" role="menubar">
+                    <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+                    <li role="none"><a href="#skills" class="nav-link" role="menuitem">Skills</a></li>
+                    <li role="none"><a href="#projects" class="nav-link" role="menuitem">Projects</a></li>
+                    <li role="none"><a href="#experience" class="nav-link" role="menuitem">Experience</a></li>
+                    <li role="none"><a href="#education" class="nav-link" role="menuitem">Education</a></li>
+                    <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+                </ul>
+
+                <div class="nav-actions">
+                    <button class="theme-toggle" aria-label="Toggle dark and light theme" type="button">
+                        <i class="fas fa-moon" aria-hidden="true"></i>
+                    </button>
+
+                    <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" type="button">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero-section" aria-label="Introduction">
+        <div class="hero-content">
+            <p class="hero-greeting scroll-reveal">Hello, I'm</p>
+            <h1 class="hero-name scroll-reveal">Sujay M.</h1>
+            <p class="hero-role scroll-reveal">
+                <span>Software Engineer</span>
+                <span class="separator" aria-hidden="true">|</span>
+                <span>Backend Developer</span>
+                <span class="separator" aria-hidden="true">|</span>
+                <span>Full Stack Developer</span>
+            </p>
+            <p class="hero-description scroll-reveal">
+                A passionate software engineer with a knack for building scalable backend systems
+                and full-stack applications. I love crafting elegant solutions to complex problems
+                and turning ideas into impactful, real-world products.
+            </p>
+            <div class="hero-cta scroll-reveal">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-code" aria-hidden="true"></i>
+                    View Projects
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                    Contact Me
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+
+        <!-- ===== ABOUT SECTION ===== -->
+        <section id="about" class="about-section" aria-labelledby="about-title">
+            <div class="container">
+                <h2 class="section-title scroll-reveal" id="about-title">
+                    <span class="section-number" aria-hidden="true">01.</span> About Me
+                </h2>
+                <div class="about-content scroll-reveal">
+                    <div class="about-text">
+                        <p>
+                            I'm a Computer Science and Engineering student with a deep passion for software development.
+                            My journey in tech started with curiosity about how applications work under the hood, and has
+                            since evolved into a focused pursuit of backend engineering and full-stack development.
+                        </p>
+                        <p>
+                            I specialize in building robust web applications using modern frameworks and tools.
+                            My experience spans from designing RESTful APIs and working with databases to creating
+                            intuitive user interfaces. I'm particularly interested in AI/ML integration, cloud-native
+                            architectures, and developer tooling.
+                        </p>
+                        <p>
+                            When I'm not coding, you'll find me exploring new technologies, contributing to open-source
+                            projects, or working on innovative side projects that solve real-world problems.
+                        </p>
+                    </div>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-laptop-code" aria-hidden="true"></i>
+                            <span>Full Stack Development</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-server" aria-hidden="true"></i>
+                            <span>Backend Engineering</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-brain" aria-hidden="true"></i>
+                            <span>AI/ML Integration</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-database" aria-hidden="true"></i>
+                            <span>Database Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SKILLS SECTION ===== -->
+        <section id="skills" class="skills-section" aria-labelledby="skills-title">
+            <div class="container">
+                <h2 class="section-title scroll-reveal" id="skills-title">
+                    <span class="section-number" aria-hidden="true">02.</span> Skills &amp; Technologies
+                </h2>
+
+                <!-- Languages -->
+                <div class="skills-category scroll-reveal">
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-code" aria-hidden="true"></i> Languages
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-category="languages">
+                            <i class="fab fa-python" aria-hidden="true"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-card" data-category="languages">
+                            <i class="fab fa-java" aria-hidden="true"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-card" data-category="languages">
+                            <i class="fab fa-js-square" aria-hidden="true"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-card" data-category="languages">
+                            <i class="fas fa-copyright" aria-hidden="true"></i>
+                            <span>C</span>
+                        </div>
+                        <div class="skill-card" data-category="languages">
+                            <i class="fas fa-database" aria-hidden="true"></i>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frontend -->
+                <div class="skills-category scroll-reveal">
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-palette" aria-hidden="true"></i> Frontend
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-category="frontend">
+                            <i class="fab fa-html5" aria-hidden="true"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-card" data-category="frontend">
+                            <i class="fab fa-css3-alt" aria-hidden="true"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-card" data-category="frontend">
+                            <i class="fab fa-react" aria-hidden="true"></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="skill-card" data-category="frontend">
+                            <i class="fab fa-bootstrap" aria-hidden="true"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="skill-card" data-category="frontend">
+                            <i class="fas fa-wind" aria-hidden="true"></i>
+                            <span>Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skills-category scroll-reveal">
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-server" aria-hidden="true"></i> Backend
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-category="backend">
+                            <i class="fab fa-python" aria-hidden="true"></i>
+                            <span>Flask</span>
+                        </div>
+                        <div class="skill-card" data-category="backend">
+                            <i class="fab fa-node-js" aria-hidden="true"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-card" data-category="backend">
+                            <i class="fas fa-plug" aria-hidden="true"></i>
+                            <span>REST APIs</span>
+                        </div>
+                        <div class="skill-card" data-category="backend">
+                            <i class="fab fa-python" aria-hidden="true"></i>
+                            <span>Django</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Database -->
+                <div class="skills-category scroll-reveal">
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-database" aria-hidden="true"></i> Database
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-category="database">
+                            <i class="fas fa-database" aria-hidden="true"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-card" data-category="database">
+                            <i class="fas fa-leaf" aria-hidden="true"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-card" data-category="database">
+                            <i class="fas fa-database" aria-hidden="true"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DevOps / Tools -->
+                <div class="skills-category scroll-reveal">
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-tools" aria-hidden="true"></i> DevOps &amp; Tools
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-category="devops-tools">
+                            <i class="fab fa-git-alt" aria-hidden="true"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-card" data-category="devops-tools">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-card" data-category="devops-tools">
+                            <i class="fab fa-docker" aria-hidden="true"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-card" data-category="devops-tools">
+                            <i class="fab fa-linux" aria-hidden="true"></i>
+                            <span>Linux</span>
+                        </div>
+                        <div class="skill-card" data-category="devops-tools">
+                            <i class="fas fa-terminal" aria-hidden="true"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-card" data-category="devops-tools">
+                            <i class="fas fa-envelope-open-text" aria-hidden="true"></i>
+                            <span>Postman</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJECTS SECTION ===== -->
+        <section id="projects" class="projects-section" aria-labelledby="projects-title">
+            <div class="container">
+                <h2 class="section-title scroll-reveal" id="projects-title">
+                    <span class="section-number" aria-hidden="true">03.</span> Projects
+                </h2>
+
+                <div class="project-filters scroll-reveal" role="group" aria-label="Filter projects by category">
+                    <button class="filter-btn active" data-filter="all" type="button">
+                        <i class="fas fa-th-large" aria-hidden="true"></i> All
+                    </button>
+                    <button class="filter-btn" data-filter="ai-ml" type="button">
+                        <i class="fas fa-brain" aria-hidden="true"></i> AI/ML
+                    </button>
+                    <button class="filter-btn" data-filter="web-dev" type="button">
+                        <i class="fas fa-globe" aria-hidden="true"></i> Web Dev
+                    </button>
+                </div>
+
+                <div class="projects-grid">
+
+                    <!-- Project 1: ResumeIQ -->
+                    <article class="project-card scroll-reveal" data-category="ai-ml">
+                        <div class="project-card-header">
+                            <div class="project-icon">
+                                <i class="fas fa-file-alt" aria-hidden="true"></i>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View ResumeIQ source code on GitHub">
+                                    <i class="fab fa-github" aria-hidden="true"></i>
+                                </a>
+                                <a href="#" class="project-link" aria-label="View ResumeIQ live demo">
+                                    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">ResumeIQ</h3>
+                        <p class="project-description">
+                            AI-powered resume analysis and builder application. Leverages machine learning to
+                            parse, analyze, and provide intelligent suggestions for improving resumes, helping
+                            users create standout job applications.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">AI/ML</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: College Assistant Chatbot -->
+                    <article class="project-card scroll-reveal" data-category="ai-ml">
+                        <div class="project-card-header">
+                            <div class="project-icon">
+                                <i class="fas fa-robot" aria-hidden="true"></i>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View College Assistant Chatbot source code on GitHub">
+                                    <i class="fab fa-github" aria-hidden="true"></i>
+                                </a>
+                                <a href="#" class="project-link" aria-label="View College Assistant Chatbot live demo">
+                                    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">College Assistant Chatbot</h3>
+                        <p class="project-description">
+                            Flask-based college assistant chatbot with AI integration and admin dashboard.
+                            Provides students with instant answers to queries about courses, schedules,
+                            events, and campus resources through a conversational interface.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">AI</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: AI Code Review Platform -->
+                    <article class="project-card scroll-reveal" data-category="web-dev">
+                        <div class="project-card-header">
+                            <div class="project-icon">
+                                <i class="fas fa-code-branch" aria-hidden="true"></i>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View AI Code Review Platform source code on GitHub">
+                                    <i class="fab fa-github" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-title-wrapper">
+                            <h3 class="project-title">AI Code Review Platform</h3>
+                            <span class="project-badge">In Development</span>
+                        </div>
+                        <p class="project-description">
+                            Full-stack platform for automated code review and developer feedback. Integrates AI
+                            to analyze code quality, identify bugs, suggest improvements, and streamline the
+                            peer review process for development teams.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">React.js</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== EXPERIENCE SECTION ===== -->
+        <section id="experience" class="experience-section" aria-labelledby="experience-title">
+            <div class="container">
+                <h2 class="section-title scroll-reveal" id="experience-title">
+                    <span class="section-number" aria-hidden="true">04.</span> Experience
+                </h2>
+
+                <div class="experience-timeline">
+                    <div class="experience-item scroll-reveal">
+                        <div class="experience-marker" aria-hidden="true">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="experience-content">
+                            <div class="experience-header">
+                                <h3 class="experience-role">Web Development Intern</h3>
+                                <span class="experience-company">
+                                    <i class="fas fa-building" aria-hidden="true"></i>
+                                    InAmigos Foundation
+                                </span>
+                                <span class="experience-date">
+                                    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                    July 2026 — August 2026
+                                </span>
+                            </div>
+                            <ul class="experience-details">
+                                <li>Designed, developed, and maintained responsive web pages using HTML5, CSS3, and JavaScript, ensuring cross-browser compatibility and mobile-first design.</li>
+                                <li>Collaborated with cross-functional teams including designers and project managers to translate wireframes and mockups into functional, pixel-perfect web interfaces.</li>
+                                <li>Implemented RESTful API integrations to connect front-end components with backend services, improving data flow and user experience.</li>
+                                <li>Participated in code reviews and adopted version control best practices using Git and GitHub for efficient team collaboration.</li>
+                                <li>Optimized website performance by minimizing load times through image compression, lazy loading, and code minification techniques.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== EDUCATION SECTION ===== -->
+        <section id="education" class="education-section" aria-labelledby="education-title">
+            <div class="container">
+                <h2 class="section-title scroll-reveal" id="education-title">
+                    <span class="section-number" aria-hidden="true">05.</span> Education
+                </h2>
+
+                <div class="education-timeline">
+                    <div class="education-item scroll-reveal">
+                        <div class="education-marker" aria-hidden="true">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="education-content">
+                            <h3 class="education-degree">
+                                <i class="fas fa-award" aria-hidden="true"></i>
+                                B.E./B.Tech — Computer Science and Engineering
+                            </h3>
+                            <p class="education-institution">
+                                <i class="fas fa-university" aria-hidden="true"></i>
+                                Moodalkatte Institute of Technology
+                            </p>
+                            <p class="education-date">
+                                <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                Expected Graduation: 2027
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <section id="contact" class="contact-section" aria-labelledby="contact-title">
+            <div class="container">
+                <h2 class="section-title scroll-reveal" id="contact-title">
+                    <span class="section-number" aria-hidden="true">06.</span> Get In Touch
+                </h2>
+                <p class="contact-intro scroll-reveal">
+                    Have a project in mind or just want to say hello? I'd love to hear from you.
+                    Fill out the form below and I'll get back to you as soon as possible.
+                </p>
+
+                <form class="contact-form scroll-reveal" action="#" method="POST" novalidate>
+                    <div class="form-group">
+                        <label for="contact-name" class="form-label">
+                            <i class="fas fa-user" aria-hidden="true"></i> Full Name
+                        </label>
+                        <input
+                            type="text"
+                            id="contact-name"
+                            name="name"
+                            class="form-input"
+                            placeholder="Enter your full name"
+                            required
+                            minlength="2"
+                            maxlength="100"
+                            autocomplete="name"
+                            aria-required="true"
+                        >
+                        <span class="form-error" aria-live="polite"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact-email" class="form-label">
+                            <i class="fas fa-envelope" aria-hidden="true"></i> Email Address
+                        </label>
+                        <input
+                            type="email"
+                            id="contact-email"
+                            name="email"
+                            class="form-input"
+                            placeholder="Enter your email address"
+                            required
+                            autocomplete="email"
+                            aria-required="true"
+                        >
+                        <span class="form-error" aria-live="polite"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact-subject" class="form-label">
+                            <i class="fas fa-tag" aria-hidden="true"></i> Subject
+                        </label>
+                        <input
+                            type="text"
+                            id="contact-subject"
+                            name="subject"
+                            class="form-input"
+                            placeholder="What's this about?"
+                            required
+                            minlength="3"
+                            maxlength="200"
+                            aria-required="true"
+                        >
+                        <span class="form-error" aria-live="polite"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact-message" class="form-label">
+                            <i class="fas fa-comment-dots" aria-hidden="true"></i> Message
+                        </label>
+                        <textarea
+                            id="contact-message"
+                            name="message"
+                            class="form-input form-textarea"
+                            placeholder="Write your message here..."
+                            required
+                            minlength="10"
+                            maxlength="2000"
+                            rows="6"
+                            aria-required="true"
+                        ></textarea>
+                        <span class="form-error" aria-live="polite"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-copyright">
+                    &copy; <span id="current-year"></span> Sujay M. All rights reserved.
+                </p>
+                <nav class="footer-socials" aria-label="Social media links">
+                    <a href="#" class="social-link" aria-label="Visit my GitHub profile" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Visit my LinkedIn profile" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                    </a>
+                    <a href="mailto:hello@example.com" class="social-link" aria-label="Send me an email">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                    </a>
+                </nav>
+                <p class="footer-tagline">Designed &amp; Built by Sujay M.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== BACK TO TOP BUTTON ===== -->
+    <button class="back-to-top" aria-label="Scroll back to top" type="button" style="display: none;">
+        <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
